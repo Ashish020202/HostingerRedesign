@@ -224,20 +224,7 @@ transform: translateY(-80px);
     flex-direction: column;
 
 }
-.about-img{
-    position: relative;
 
-}
-.about-img img{
-    max-width: 100%;
-    min-width: 10px;
-    border-radius: 10px;
-}
-.about-info .description{
-    font-size: 1em;
-    font-weight: 200;
-    margin-bottom: 10px;
-}
 .logo1{
     
     margin-top: -3%;
