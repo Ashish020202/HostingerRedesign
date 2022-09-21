@@ -1,1 +1,2 @@
-# Hostinger-Redesig
+# Hostinger-Redesign!
+Hostinger website redesigning project.
