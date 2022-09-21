@@ -33,15 +33,16 @@
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;;
+       
         
 }
 html{
         scroll-behavior: smooth;
 }
 body{
-        color:var(--first-color);
+        color:var(--second-color);
         background:var(--body-bg-color);
-        margin:2rem 0 0 0;
+        margin:1rem 0 0 0;
         transition: .5s ease;
 }
 a{
@@ -57,7 +58,7 @@ header{
         position: fixed;
         top: 0;
         left: 0;
-        backdrop-filter: blur(20px);
+        /* backdrop-filter: blur(20px); */
         transition: .6s ease;
 
 }
@@ -84,12 +85,12 @@ header{
         margin-right: 40px;
 }
 .navitems a{
-        color: var(--first-color);
+        color: var(--second-color);
         font-size: var(--normal-font-size);
         font-weight: 500;
 }
 .navitems a:hover{
-        color:var(--second-color);
+        color:var(--first-color);
 }
 .home{
     position: relative;
@@ -130,19 +131,19 @@ header{
     color: var(--third-color);
     font-feature-settings: 1.3em;
      font-weight: 600;
-     line-height: 50px;
+     line-height: 60px;
 }
 .home-container .info h2{
     color: var(--second-color);
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 60px;
 }
 .home-container .info p{
     color: var(--third-color);
     font-size: var(--normal-font-size);
     max-width: 450px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .btn{
     background: var(--second-color);
@@ -150,7 +151,7 @@ header{
     font-size: var(--normal-font-size);
     font-weight: 500;
     display: inline block;
-    margin-bottom:2px ;
+    margin-bottom:5px ;
     padding: 10px 15px;
     letter-spacing: 1px;
     border-radius: 10px;
@@ -198,7 +199,7 @@ header{
 .section-title-01{
     font-size: 4.5em;
     font-weight: 800;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     background: linear-gradient(to top, transparent 0%, var(--first-color)70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -229,5 +230,18 @@ transform: translateY(-80px);
     
     margin-top: -3%;
     
+}
+.home-img{
+    background-color:transparent;
+}
+.services-info .description{
+    font-size: 1em;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+.services .description h4{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
