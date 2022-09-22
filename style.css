@@ -87,7 +87,10 @@ header{
 .navitems a{
         color: var(--second-color);
         font-size: var(--normal-font-size);
-        font-weight: 500;
+        font-weight: 600;
+}
+.fa fa-shopping-cart{
+    font-size: 10px;
 }
 .navitems a:hover{
         color:var(--first-color);
@@ -121,7 +124,7 @@ header{
 .home-container .media-icons a{
     color: var(--second-color);
     font-size: 1.5rem;
-    margin: 3px 4px;
+    margin: 6px 1px;
 }
 .home-container .media-icons a:hover{
     color: var(--hover-color);
@@ -151,7 +154,7 @@ header{
     font-size: var(--normal-font-size);
     font-weight: 500;
     display: inline block;
-    margin-bottom:5px ;
+    margin-bottom:10px ;
     padding: 10px 15px;
     letter-spacing: 1px;
     border-radius: 10px;
@@ -160,7 +163,7 @@ header{
     color: var(--first-color);
     font-size: var(--normal-font-size);
     font-weight: 500;
-    margin-top: 170px;
+    margin-top: 50px;
 }
 .home .scroll-down i{
     color: var(--second-color);
@@ -181,7 +184,22 @@ header{
     justify-content: center;
     align-items: center;
 
+
 }
+/* .features{
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    top: -20%; */
+
+
+
+/* } */
+.features{
+    margin-top:30px ;
+    color: red;
+        
+}
+
 .section{
     position: relative;
     width: 1150px;
@@ -199,7 +217,7 @@ header{
 .section-title-01{
     font-size: 4.5em;
     font-weight: 800;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     background: linear-gradient(to top, transparent 0%, var(--first-color)70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -239,9 +257,155 @@ transform: translateY(-80px);
     font-weight: 200;
     margin-bottom: 5px;
 }
-.services .description h4{
+.services .description h1{
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 1000;
     margin-bottom: 10px;
 }
 
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color:var(--hover-color);
+    color: white;
+  }
+  
+  .fa {font-size:50px;}
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-box {
+    background-color: transparent;
+    width: 1100px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: dodgerblue;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: violet;
+    color:black;
+    transform: rotateY(180deg);
+  }
+/* contact********************************************* */
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
