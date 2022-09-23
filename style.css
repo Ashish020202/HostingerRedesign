@@ -216,8 +216,8 @@ header{
 }
 .section-title-01{
     font-size: 4.5em;
-    font-weight: 800;
-    margin-bottom: 5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
     background: linear-gradient(to top, transparent 0%, var(--first-color)70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -255,12 +255,12 @@ transform: translateY(-80px);
 .services-info .description{
     font-size: 1em;
     font-weight: 200;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 .services .description h1{
     font-size: 1.3em;
     font-weight: 1000;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 
@@ -347,6 +347,24 @@ transform: translateY(-80px);
     color:black;
     transform: rotateY(180deg);
   }
+
+  .container{
+    display: flex;
+}
+.car{
+    padding: 23px 12px;
+    margin :23px 12px;
+    border: 2px solid red;
+    background-color: rgb(37, 218, 115);
+    box-shadow: 10px 12px 13px 2px black;
+    box-shadow: inset 3px 5px blue;
+    box-shadow: 9px 12px brown,10px 19px green;
+    
+}
+.car h1{
+    text-shadow: 2px 1px violet;
+    /* font-weight: 500; */
+}
 /* contact********************************************* */
 
   body {
@@ -407,5 +425,18 @@ transform: translateY(-80px);
       width: 100%;
       margin-top: 0;
     }
+  }
+  #but{
+    background: palevioletred;
+    color: #fff;
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    display: inline block;
+    margin-bottom:10px ;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    align-items: center;
+
   }
   
